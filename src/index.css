@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Source Serif 4', Georgia, serif;
+  background: #F5F2ED;
+  color: #2A2622;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #D4CEC5;
+  color: #2A2622;
+}
+
+input, textarea, select, button {
+  font-family: inherit;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #ABA5A0;
+}
